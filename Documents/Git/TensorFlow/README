@@ -1,0 +1,7 @@
+Python code to generate TFRecord file with TensorFlow
+
+The code sample is used for a two classes dataset (Heal and Sick). The
+folders path with the pictures and generated file path+name must be informed. 
+In this case, both the pictures folders must have the same amount of samples.
+
+Feel free to clone and adapt this code for your need.
