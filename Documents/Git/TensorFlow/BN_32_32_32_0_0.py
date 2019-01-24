@@ -82,3 +82,5 @@ with tf.Session() as sess:
     sess.run(init)
     sess.run(y_net, feed_dict={x: input, y: output})
     saver.save(sess, 'saves/BN_32_32_32_0_0')
+	for v in sess.graph.get_operations():
+    print(v.name)
