@@ -1,3 +1,11 @@
+BN_16_0_0_0_0
+
+Simple CNN with batch normalization ready for training, fully integrated
+with TF_Reader_2 file.
+Some constants and paths must be changed to fit your application.
+
+##################################################################################
+
 BN_32_32_32_0_0
 CNN_32_32_0_32_0
 
@@ -34,4 +42,4 @@ In this case, both the pictures folders must have the same amount of samples.
 
 ##################################################################################
 
-Feel free to clone and adapt all codes for your need.
+Feel free to clone and adept all codes for your need.
