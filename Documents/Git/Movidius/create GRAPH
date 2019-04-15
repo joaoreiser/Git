@@ -3,7 +3,7 @@ With the Movidius SDK full installed:
 1) First, you need a .pb file //see TensorFlow folder, Freeze file
 2) You need to know some informations about your network:
   --> input node name
-  --> output node name //see Python Folder, BN or CNN files. Last two lines
+  --> output node name //see TensorFlow Folder, BN or CNN files. Last two lines
   --> size of the image
   
   
