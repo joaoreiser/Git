@@ -3,17 +3,18 @@ With the Movidius SDK full installed:
 1) First, you need a .pb file //see TensorFlow folder, Freeze file
 2) You need to know some informations about your network:
   --> input node name
-  --> ouput node name //see Python Folder, BN or CNN files. Last two lines
+  --> output node name //see Python Folder, BN or CNN files. Last two lines
   --> size of the image
   
   
 3) In the folder containing the .pb file, open the terminal:
 
-mvNCCompile nameFile.pb -s A -in B -on C -is 256 256 -o nameOutputFile.graph
+mvNCCompile nameFile.pb -s A -in B -on C -is D -o nameOutputFile.graph
 
 A = number of shaves used (1 - 12)
 B = input node name
 C = output node name
+D = image size [256 256] 
 
 Example with BN_32_32_32_0_0.py
 
