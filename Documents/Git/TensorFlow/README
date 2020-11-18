@@ -1,4 +1,4 @@
-BN_16_0_0_0_0
+#BN_16_0_0_0_0
 
 Simple CNN with batch normalization ready for training, fully integrated
 with TF_Reader_2 file.
@@ -6,8 +6,8 @@ Some constants and paths must be changed to fit your application.
 
 ##################################################################################
 
-BN_32_32_32_0_0
-CNN_32_32_0_32_0
+#BN_32_32_32_0_0
+#CNN_32_32_0_32_0
 
 BN and CNN files show an example of convolutional neural network with TensorFlow.
 BN contains batch normalization. CNN does not. 
@@ -15,7 +15,7 @@ Both generate the save files of the networks.
 
 ##################################################################################
 
-Freeze 
+#Freeze 
 
 File that converts the save files of TensorFlow in a freeze weights file (.pb). 
 This .pb file can be used for production or in a step to create .graph file for
@@ -23,7 +23,7 @@ Movidius.
 
 ##################################################################################
 
-TF_Reader_2
+#TF_Reader_2
 
 File that read TFRecord files of TensorFlow
 The code present on it is ideal for training neural networks.
@@ -33,7 +33,7 @@ Ideally the image size must be set when generating the TFRecord file.
 
 ##################################################################################
 
-TFRecord
+#TFRecord
 
 Python code to generate TFRecord file with TensorFlow.
 The code sample is used for a two classes dataset (Heal and Sick). The
